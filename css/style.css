@@ -1,0 +1,88 @@
+@charset "utf-8";
+body{ margin:0; padding:15px 0; background:url(../images/bg_texture.jpg) repeat; font-family: 'Dosis', sans-serif;}
+h1, h2, h3, h4, h5, h6{ margin:0; padding:0; font-family: 'Enriqueta', serif;}
+
+.clear{ clear:both;}
+
+.top_header{ margin:0; padding:0 0 15px;}
+.top_socialbox{ margin:0; padding:0 0 37px;}
+.top_socialbox ul{ margin:0; padding:0;}
+.top_socialbox ul li{ float:right; display:block; width:28px; height:28px; font-size:0px; margin:0 5px 0 0;}
+.top_socialbox ul li a.gp{ display:block; background:url(../images/topsocial_icons.png) right top no-repeat; height:28px;}
+.top_socialbox ul li a.ig{ display:block; background:url(../images/topsocial_icons.png) -135px top no-repeat; height:28px;}
+.top_socialbox ul li a.pt{ display:block; background:url(../images/topsocial_icons.png) -102px top no-repeat; height:28px;}
+.top_socialbox ul li a.yt{ display:block; background:url(../images/topsocial_icons.png) -69px top no-repeat; height:28px;}
+.top_socialbox ul li a.twt{ display:block; background:url(../images/topsocial_icons.png) -30px top no-repeat; height:28px;}
+.top_socialbox ul li a.fb{ display:block; background:url(../images/topsocial_icons.png) left top no-repeat; height:28px;}
+
+.search_box{ width:100%; float:right;}
+.search_box input[type="text"]{ width:100%; height:40px; padding:0 5px; border-top:1px solid #5a5e5a; border-bottom:1px solid #5a5e5a; border-right:none; border-left:1px solid #5a5e5a; background:url(../images/search_button.png) right top no-repeat #242624; color:#6a6f6a; font-size:14px; line-height:38px;}
+
+.navbar{ border:none; border-radius:0; margin:0;}
+ul.nav li{ font-family: 'Enriqueta', serif; font-size:20px; background:url(../images/nav_dvider.png) right top no-repeat; text-shadow:0 0 0 #007744;}
+ul.nav li a{ color:#fff !important; /*text-shadow:0 0 0 #007744;*/}
+ul.navbar-nav li a{ text-shadow:1px 1px 1px #004f2d;}
+.navbar-brand, .navbar-nav > li > a{ text-shadow:0 0 0 #007744;}
+.navbar-default .navbar-nav > .active > a{ background:#00ba6a;}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{ background:#00ba6a;}
+
+.shadow_waraper{ box-shadow:0 0 4px #033826; background:#fff;}
+
+.banner{ width:100%; margin:0; padding:0 0 15px;}
+.camera_wrap{ margin-bottom:20px !important;}
+.camera_caption div h1{ font-size:25px; line-height:25px; color:#ffd201; margin:0 0 10px;}
+.camera_caption div p{ font-size:15px; line-height:18px;}
+.camera_pag{ display:none;}
+
+.mid_optionbox{ margin:0 0 20px; padding:0 0 5px; border-bottom:1px solid #cecece;}
+.mid_iconbox{ width:100%; margin:0 0 10px; text-align:center;}
+.mid_optionbox h1{ font-size:24px; line-height:24px; text-align:center; text-transform:uppercase; color:#7b7b7b; margin:0 0 15px;}
+.mid_textbox{ margin:0 0 15px; padding:0; height:102px; overflow:hidden;}
+.mid_textbox p{ font-size:15px; line-height:18px; color:#7b7b7b; margin:0; padding:0;}
+.mid_textbox ul{ margin:0; padding:0; list-style:none;}
+.mid_textbox ul li{ font-size:15px; color:#7b7b7b; line-height:19px; background:url(../images/green_bullet.png) left 6px no-repeat; padding:0 0 0 15px;}
+.evnt h2{ font-size:20px; color:#f02687; margin:0 0 10px;}
+.evnt h3{ font-size:16px; color:#7b7b7b; margin:0 0 5px;}
+a.about_butn{ width:88px; height:35px; display:block; background:url(../images/greenbutn_bg.png) center repeat-y #08774b; border:1px solid #196145; font-size:15px; line-height:35px; text-align:center; color:#fff; border-radius:12px; margin:0 auto 15px;}
+a.about_butn:hover{ text-decoration:none;}
+a.evnt_butn{ width:88px; height:35px; display:block; background:url(../images/pinkbutn_bg.png) center repeat-y #b83766; border:1px solid #a62654; font-size:15px; line-height:35px; text-align:center; color:#fff; border-radius:12px; margin:0 auto 15px;}
+a.evnt_butn:hover{ text-decoration:none;}
+a.post_butn{ width:88px; height:35px; display:block; background:url(../images/orangebutn_bg.png) center repeat-y #c76315; border:1px solid #cb5f0a; font-size:15px; line-height:35px; text-align:center; color:#fff; border-radius:12px; margin:0 auto 15px;}
+a.post_butn:hover{ text-decoration:none;}
+
+.midlwr_box{ margin:0; padding:0 0 20px;}
+.single_post{ margin:0 0 15px; padding:0 0 10px; border-bottom:1px dashed #acacac;}
+.single_post h2{ margin:0 0 15px; font-size:26px; color:#117566;}
+.single_post h2 a{ color:#117566;}
+.single_post h2 a:hover{ text-decoration:none;}
+.single_post h3{ font-size:14px; color:#929292; margin:0 0 15px;}
+.single_post p{ font-size:15px; line-height:20px; color:#5c5c5c;}
+.single_post span{ float:right; font-size:15px;}
+.single_post span a{ color:#e74c3c;}
+.single_post span a:hover{ text-decoration:none;}
+
+.side_widget{ margin:0 0 15px;}
+.side_widget iframe{ width:100%;}
+
+.footer{ margin:0; padding:0;}
+.footer_top{ background:#252a2f; padding:5px 0;}
+.ftrsocial_text{ float:left; margin:0 10px 0 0; font:normal 14px/40px 'Enriqueta', serif; color:#9c9c9c;}
+.ftrsocial_box{ float:left; margin:0; padding:0;}
+.ftrsocial_box ul{ margin:0; padding:0; list-style:none;}
+.ftrsocial_box ul li{ float:left; width:29px; height:29px; display:block; font-size:0px; margin:5px 5px 0 0;}
+.ftrsocial_box ul li a{ display:block; width:29px; height:29px;}
+.ftrsocial_box ul li a.ftr_fb{ background:url(../images/footer_icon-sprite.png) left top no-repeat;}
+.ftrsocial_box ul li a.ftr_twt{ background:url(../images/footer_icon-sprite.png) -29px top no-repeat;}
+.ftrsocial_box ul li a.ftr_yt{ background:url(../images/footer_icon-sprite.png) -58px top no-repeat;}
+.ftrsocial_box ul li a.ftr_pt{ background:url(../images/footer_icon-sprite.png) -87px top no-repeat;}
+.ftrsocial_box ul li a.ftr_ig{ background:url(../images/footer_icon-sprite.png) -116px top no-repeat;}
+.ftrsocial_box ul li a.ftr_gp{ background:url(../images/footer_icon-sprite.png) -145px top no-repeat;}
+.footer_bottom{ background:#2f353b; padding:8px 0;}
+.footer_bottom h4{ font-size:14px; line-height:60px; color:#9c9c9c;}
+
+.red{ background:#900;}
+.green{ background:#093;}
+.blue{ background:#06F}
+.yellow{ background:#FF0}
+.orange{ background:#F60;}
+.purple{ background:#F0C;}
