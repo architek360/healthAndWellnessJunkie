@@ -50,7 +50,7 @@ a.evnt_butn:hover{ text-decoration:none;}
 a.post_butn{ width:88px; height:35px; display:block; background:url(../images/orangebutn_bg.png) center repeat-y #c76315; border:1px solid #cb5f0a; font-size:15px; line-height:35px; text-align:center; color:#fff; border-radius:12px; margin:0 auto 15px;}
 a.post_butn:hover{ text-decoration:none;}
 
-.midlwr_box{ margin:0; padding:0 0 20px;}
+.midlwr_box{ margin:0; padding:0 0 10px;}
 .single_post{ margin:0 0 15px; padding:0 0 10px; border-bottom:1px dashed #acacac;}
 .single_post h2{ margin:0 0 15px; font-size:26px; color:#117566;}
 .single_post h2 a{ color:#117566;}
@@ -79,6 +79,31 @@ a.post_butn:hover{ text-decoration:none;}
 .ftrsocial_box ul li a.ftr_gp{ background:url(../images/footer_icon-sprite.png) -145px top no-repeat;}
 .footer_bottom{ background:#2f353b; padding:8px 0;}
 .footer_bottom h4{ font-size:14px; line-height:60px; color:#9c9c9c;}
+
+.inner_midbox{ padding:20px 0 10px; margin:0;}
+.inner_midbox p{ font-size:15px; line-height:20px; color:#5c5c5c;}
+.inner_midbox h2{ margin:0 0 15px; font-size:26px; color:#117566;}
+.inner_midbox h2 a{ color:#117566;}
+.inner_midbox h2 a:hover{ text-decoration:none;}
+.inner_midbox h4{ font-size:14px; color:#929292; margin:0 0 15px;}
+.inner_midbox span.img_left{ float:left; display:block; background:#dadada; margin:0 15px 10px 0;}
+.inner_midbox span.img_left h3{ display:block; color:#464646; padding:5px; font-size:15px;}
+.inner_midbox ul li{ font-size:15px; color:#5c5c5c;}
+
+.insp_box{ margin:0 0 10px; padding:0 0 10px; border-bottom:1px dashed #acacac;}
+.insp_box h2{ margin:0 0 15px; font-size:26px; color:#117566;}
+.insp_box h2 a{ color:#117566;}
+.insp_box h2 a:hover{ text-decoration:none;}
+span.rd_butn{ float:right;}
+span.rd_butn a{ color:#e74c3c;}
+span.rd_butn a:hover{ text-decoration:none;}
+span.thumb{ float:left; margin:0 15px 10px 0; border:2px solid #d3d3d3;}
+
+.evnt_box{ margin:0 0 10px; padding:0 0 10px; border-bottom:1px dashed #acacac;}
+.map_thumb > iframe{ width:100%;}
+
+.blg_box{ margin:0 0 10px; padding:0 0 10px; border-bottom:1px dashed #acacac;}
+.blg_box h3{ font-size:14px; color:#929292; margin:0 0 15px;}
 
 .red{ background:#900;}
 .green{ background:#093;}

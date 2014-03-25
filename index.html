@@ -23,19 +23,12 @@
 <script type='text/javascript' src='js/jquery.min.js'></script>
 <script type='text/javascript' src='js/jquery.mobile.customized.min.js'></script>
 <script type='text/javascript' src='js/jquery.easing.1.3.js'></script> 
-<script type='text/javascript' src='js/camera.min.js'></script> 
+<script type='text/javascript' src='js/camera.js'></script> 
 <script>
 	jQuery(function(){
 		
 		jQuery('#camera_wrap_1').camera({
-			thumbnails: true
-		});
-
-		jQuery('#camera_wrap_2').camera({
-			height: '400px',
-			loader: 'bar',
-			pagination: false,
-			thumbnails: true
+			thumbnails: false
 		});
 	});
 </script>
@@ -43,15 +36,6 @@
 </head>
 
 <body>
-<!--<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "http://connect.facebook.net/en_US/all.js#xfbml=1";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>-->
-<!--header section-->
 <div class="container">
 	<div class="row">
     	<!--top header section-->
@@ -100,10 +84,10 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">About Aimee</a></li>
-                    <li><a href="#">Inspirations</a></li>
-                    <li><a href="#">Events</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about_us.html">About Aimee</a></li>
+                    <li><a href="inspirations.html">Inspirations</a></li>
+                    <li><a href="events.html">Events</a></li>
                 </ul>
             </div>
             <!--actual navigation-->
@@ -137,7 +121,7 @@
                 <div class="mid_textbox">
                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit..</p>
                 </div>
-                <a class="about_butn" href="#">View More</a>
+                <a class="about_butn" href="about_us.html">View More</a>
             </div>
             <div class="col-md-4">
             	<div class="mid_iconbox"><img src="images/event_icon.png" alt=""></div>
@@ -148,7 +132,7 @@
                     <h3>Time: 7:00 PM</h3>
                     <h3>Address: 530 5th ave new York, NY 10036 </h3>
                 </div>
-                <a class="evnt_butn" href="#">View More</a>
+                <a class="evnt_butn" href="events.html">View More</a>
             </div>
             <div class="col-md-4">
             	<div class="mid_iconbox"><img src="images/post_icon.png" alt=""></div>
@@ -162,7 +146,7 @@
                         <li>Why am I doing this?</li>
                     </ul>
                 </div>
-                <a class="post_butn" href="#">View More</a>
+                <a class="post_butn" href="blog.html">View More</a>
             </div>
             <div class="clear"></div>
         </div>
@@ -173,12 +157,12 @@
         	<!--post section-->
         	<div class="col-md-9">
             	<div class="single_post">
-                	<h2><a href="#">10 Day Juice Challenge -Begins December 1st - 10th.</a></h2>
+                	<h2><a href="blog_details.html">10 Day Juice Challenge -Begins December 1st - 10th.</a></h2>
                     <h3>Posted on November 24, 2013 by Aimee</h3>
                     <p>My bestie, Carlene Benelli and her awesome yoga studio, Seacoast Power Yoga in New Hampshire posted about a 10-Day Juice Challenge. Of course I am in. Got me thinking we should do it down in my neck of the woods so I am throwing it out there to all of you to join us.</p>
                     <p>Some of you had questions of recipes. To get you started here is a list from recent talks I have given. Please let me know if you have any questions or concerns. This should be fun, daring, and adventurous. If it seems intimidating that is ok, but don't let it scare you away. Just give it a try one green juice day at a time. You may even find out that you like it!!! If you sign up on Seacoast Power Yoga's Facebook Page under events, you will also be able to If it seems intimidating that is ok, but don't let it  get support throughout the 10 days.</p>
                     <p>For other ideas to create your own magic juice or smoothie, check out here.</p>
-                    <span class="rd_butn"><a href="#">Read More</a></span>
+                    <span class="rd_butn"><a href="blog_details.html">Read More</a></span>
                     <div class="clear"></div>
                 </div>
                 
@@ -201,8 +185,10 @@
                 <div class="side_widget">
                 	<iframe src="http://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FFacebookDevelopers&amp;width&amp;height=290&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=false&amp;show_border=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:290px;" allowTransparency="true"></iframe></div>
                 </div>
-            </div>
+            
             <div class="clear"></div>
+            </div>
+            
         </div>
         <!--mid lower section-->
         
